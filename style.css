@@ -1,0 +1,189 @@
+/* universal styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* utility */
+
+.utility{
+    height: 10%;
+    width: 100vw;
+    background-color: #03346E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* priority colors */
+
+.priorityColor{
+    height: 70%; /* hieght milegi isko iske parent se*/
+    width: 35%;
+    background-color: #6EACDA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.box{
+    height: 80%;
+    width: 20%;
+    border-radius: 2px;
+}
+
+/* colors */
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+
+.search{
+    height: 70%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6EACDA;
+    border-radius: 2px
+}
+
+.searchBar{
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3vh;
+}
+
+.srchBtn{
+    height: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.srchBtn:hover{
+    cursor: pointer;
+}
+
+/* control styling for "add, delete and all" */
+.controls{
+    height: 70%;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6EACDA;
+    border-radius: 2px;
+}
+
+
+.ticketContainer{
+    width: 100%;
+    min-height: 90%;
+    background-color: #E2E2B6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.ticketAdder{
+    height: 40vh;
+    width: 40vw;
+    background-color: #c43030 ;
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    margin: auto;
+    z-index: 1;
+    
+}
+
+.textPart{
+    height: 80%;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px;
+    font-size: large;
+}
+
+.ticketPriority{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #021526;
+}
+
+.border{
+    border: 4px solid #cdcdcd;
+}
+
+.ticket{
+    width: 15vw;
+    height: 25vh;
+    
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+.taskColor{
+    height: 10%;
+}
+
+.taskText{
+    padding: 5px;
+    font-size: 1.4rem;
+    position: relative;
+    height: 90%;
+    background-color: rgb(208, 208, 208);
+}
+
+.lock{
+    position: absolute;
+    right:5%;
+    bottom: 5%;
+}
+
+.noDisplay{
+    display: none;
+}
+
+/*
+styling set : in line internal, external,
+properties and attributes
+selectors
+pseudo selectors
+combinators
+position
+display flex
+diplay grid
+*/
