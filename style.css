@@ -187,3 +187,9 @@ position
 display flex
 diplay grid
 */
+
+.add-to-calendar{
+    position: absolute;
+    bottom: 5%;
+    right: 70%;
+}
